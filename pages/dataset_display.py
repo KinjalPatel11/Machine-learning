@@ -10,7 +10,7 @@ st.title("Dataset Dashboard")
     # st.subheader("Dataset Preview")
     # st.dataframe(df)
 
-df = pd.read_csv("E:\MCA 2021-23\MCA Sem-3\ML\ML Practical\pages\house_dataset.csv") 
+df = pd.read_csv("pages/house_dataset.csv") 
 st.subheader("Dataset Preview")
 st.dataframe(df)
 
